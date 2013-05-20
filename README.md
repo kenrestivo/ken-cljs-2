@@ -1,8 +1,14 @@
 # ken-cljs-2
 
-A Leiningen template for a CLJS web app with a Postgres back-end.
+A Leiningen template for CLJS web apps with Postgres back-ends.
 
 ## Usage
+
+Add to your profiles.clj:
+```clojure
+{:user
+  {:plugins [[ken-cljs-2/lein-template "0.1.3"]]}}
+```
 
 Create a project, set your db parameters in .lein-env, and go for it.
 
