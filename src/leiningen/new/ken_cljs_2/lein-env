@@ -1,0 +1,9 @@
+;;-*- mode: clojure; -*-
+
+{:db-host "localhost" 
+ :db-port 5432
+ :db-name "foo"
+ :db-user "foo"
+ :db-pass "foo"
+ :type "dev"}
+ 
